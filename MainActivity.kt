@@ -8,8 +8,8 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
-import com.firstapp.hungersden.databinding.ActivityMainBinding
-import com.firstapp.hungersden.databinding.NotificationItemBinding
+import com.firstapp.FoodBridge.databinding.ActivityMainBinding
+import com.firstapp.FoodBridge.databinding.NotificationItemBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
