@@ -1,4 +1,4 @@
-package com.firstapp.hungersden
+package com.firstapp.Foodbridge
 
 import android.app.Activity
 import android.content.Intent
