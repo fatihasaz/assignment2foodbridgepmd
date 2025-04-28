@@ -1,34 +1,12 @@
-# Hungers-Den---Food-Delivery-Android-App
-*Hungers' Den - Food Delivery Android App*
+The development of a mobile application that is both functional and engaging is essential in the current digital environment to guarantee a positive user experience. The front-end development of a mobile application is the primary focus of this project, with an emphasis on the creation of a visually enticing and seamless user interface (UI). Our goal is to develop a user interface that surpasses the specifications specified in the case study provided, thereby improving user satisfaction and interaction.
+The objective is to create a thorough layout that includes a minimum of five distinct screens, each of which is designed to facilitate critical user interactions, using industry-standard tools such as XML and Android Studio.. The primary screen will function as the central hub, while supplementary displays will direct users through a variety of functionalities and features in accordance with the case study's specifications.
+In order to guarantee the application's efficacy, we will prioritise numerous design requirements as we commence this project. Our design will be optimised to adapt gracefully across various device screen sizes and orientations, as responsiveness is paramount. Another fundamental component of our strategy will be usability, which will prioritise intuitive controls, such as buttons and input fields and distinct navigation pathways to facilitate users' effortless interaction with the application. Finally, we will ensure that the visual experience is visually harmonious by consistently utilising colours, style, and layout to maintain a cohesive aesthetic.
+In conclusion, the objective of this project is to establish a standard for quality and innovation in mobile development by providing a focus on users and robust mobile application UI that not only aligns with the enumerated objectives but also sets a new standard.
 
-Developed a comprehensive food delivery application, *Hungers' Den*, using Kotlin and XML in Android Studio (version 2024.1.1). This app features an intuitive user interface and a seamless user experience, incorporating essential functionalities of a modern food delivery platform. Key features include:
-
-- *Menu Lists*: Display diverse food options with detailed descriptions and pricing.
-- *Add to Cart*: Easy addition and modification of selected items before checkout.
-- *Order History*: Track past orders and reorder with ease.
-- *User Authentication*: Secure login and registration using Firebase Authentication and Google Authentication.
-- *Profile Management*: Save and update user profile information.
-
-Additionally, the project includes a separate *Admin Hungers' Den* app, tailored for administrative tasks. This app allows admins to:
-
-- *Manage Menus*: Add, update, or delete menu items efficiently.
-- *Monitor Earnings*: Access detailed records of total earnings.
-- *Order Management*: View pending and completed orders and update order statuses.
-- *Admin Profile Updates*: Maintain and modify admin profile information.
-
-Both applications utilize Firebase for robust authentication and database management, ensuring secure and reliable data handling. This project showcases advanced Android development skills, focusing on user experience and administrative efficiency.
-Both apps contains a lot of more features in it.
-# Tools and Technologies
-# Languages: 
-Kotlin, XML
-# Tools: 
-Android Studio (2024.1.1), Firebase- Auth, Database 
-# Some Screenshots of both apps
-![1](https://github.com/user-attachments/assets/c48997c0-d1c8-4ec1-bd1d-6fbdeae898ef)
-![2](https://github.com/user-attachments/assets/cafd8e5e-454c-471d-9577-8ff977fb9708)
-![3](https://github.com/user-attachments/assets/397664c3-d000-484c-b4d8-56d58920e3fc)
-![4](https://github.com/user-attachments/assets/b89c30d6-c83d-4ea7-b295-1423521784e8)
-![5](https://github.com/user-attachments/assets/981ecfa1-7bed-41eb-961e-ce774dd27ebc)
-![6](https://github.com/user-attachments/assets/1fe0ecfc-faad-4068-add1-5c19577b4df5)
-![7](https://github.com/user-attachments/assets/f97ca520-5a12-4d27-974c-bf3f78187085)
-![8](https://github.com/user-attachments/assets/7de2a7bb-bc89-48b2-b215-3d21f68140fd)
+SOLUTIONS
+1. UI Layout Issues on Different Screen Sizes
+To address this issue, we replaced basic LinearLayouts and RelativeLayouts with ConstraintLayout, which offers more flexible and adaptive UI control. We also wrapped certain layouts in a ScrollView to allow vertical scrolling on smaller screens, preventing content from being clipped. Finally, we tested the app on several virtual devices with different screen sizes to ensure that the interface remained responsive and user-friendly across all devices.
+2. Navigation Between Screens
+We learned to implement navigation using explicit Intents, which allowed us to clearly define the destination Activity and pass relevant data using Bundles. To avoid crashes, we ensured that all target activities were correctly declared in the AndroidManifest.xml file. Online resources, such as official Android documentation and YouTube tutorials, were extremely helpful in guiding us through proper implementation.
+3. Inconsistent Styling Across Screens
+To improve consistency, we reviewed the styling used across all screens and made adjustments to ensure a more uniform look. We reused similar font sizes, colors, and button designs by manually applying the same values where needed. We also referred to design guidelines to help keep the layout clean and user-friendly. While we didn’t use advanced theming tools, simply being mindful of repeating a consistent style throughout the app helped create a more cohesive and professional appearance.
