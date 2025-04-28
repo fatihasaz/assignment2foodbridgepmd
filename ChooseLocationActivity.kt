@@ -6,7 +6,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.firstapp.hungersden.databinding.ActivityChooseLocationBinding
+import com.firstapp.FoodBridge.databinding.ActivityChooseLocationBinding
 
 class ChooseLocationActivity : AppCompatActivity() {
     private val binding: ActivityChooseLocationBinding by lazy {
