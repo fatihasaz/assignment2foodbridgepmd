@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.firstapp.hungersden"
+    namespace = "com.firstapp.FoodBridge"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.firstapp.hungersden"
+        applicationId = "com.firstapp.FoodBridge"
         minSdk = 27
         targetSdk = 34
         versionCode = 1
