@@ -1,4 +1,4 @@
-package com.firstapp.hungersden
+package com.firstapp.FoodBridge
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
