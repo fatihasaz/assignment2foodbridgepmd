@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.firstapp.hungersden.adapter.MenuAdapter
-import com.firstapp.hungersden.databinding.FragmentMenuBottomSheetBinding
-import com.firstapp.hungersden.model.MenuItem
+import com.firstapp.FoodBridge.adapter.MenuAdapter
+import com.firstapp.FoodBridge.databinding.FragmentMenuBottomSheetBinding
+import com.firstapp.FoodBridge.model.MenuItem
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
