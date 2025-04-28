@@ -1,4 +1,4 @@
-package com.firstapp.hungersden
+package com.firstapp.FoodBride
 
 import android.app.Activity
 import android.content.Intent
