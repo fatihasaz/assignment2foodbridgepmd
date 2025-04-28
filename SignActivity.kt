@@ -10,8 +10,8 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.firstapp.hungersden.databinding.ActivitySignBinding
-import com.firstapp.hungersden.model.UserModel
+import com.firstapp.FoodBridge.databinding.ActivitySignBinding
+import com.firstapp.FoodBridge.model.UserModel
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
