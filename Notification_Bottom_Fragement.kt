@@ -5,8 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.firstapp.hungersden.adapter.NotificationAdapter
-import com.firstapp.hungersden.databinding.FragmentNotificationBottomBinding
+import com.firstapp.FoodBridge.adapter.NotificationAdapter
+import com.firstapp.FoodBridge.databinding.FragmentNotificationBottomBinding
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import java.util.ArrayList
 
