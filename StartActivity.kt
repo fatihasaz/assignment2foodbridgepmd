@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.firstapp.hungersden.databinding.ActivityStartBinding
+import com.firstapp.FoodBridge.databinding.ActivityStartBinding
 
 class StartActivity : AppCompatActivity() {
     private val binding: ActivityStartBinding by lazy {
