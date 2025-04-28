@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".DetailsActivity">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back_icon1" />
+
+        <TextView
+            android:id="@+id/detailFoodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/cabalbold"
+            android:text="Food Name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="32dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detailFoodName">
+
+            <ImageView
+                android:id="@+id/detailFoodImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/foodimg5" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/shortDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/cabalbold"
+            android:text="Short Description"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+
+        <TextView
+            android:id="@+id/detailDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="Fried rice is a savory, versatile dish made by stir-frying cooked rice with a mix of vegetables, proteins (like chicken, shrimp, or tofu), and aromatics such as garlic and onions. It’s typically seasoned with soy sauce, sesame oil, and sometimes a splash of oyster sauce. The result is a flavorful, slightly crispy dish with a satisfying blend of textures and tastes. Ideal for using up leftover rice, it can be customized with various ingredients to suit your taste."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/shortDescription"
+            app:layout_constraintTop_toBottomOf="@+id/shortDescription" />
+
+        <TextView
+            android:id="@+id/ingredientstxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/cabalbold"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintStart_toStartOf="@+id/detailDescription"
+            app:layout_constraintTop_toBottomOf="@+id/detailDescription" />
+
+        <TextView
+            android:id="@+id/detailsIngredients"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="Cooked Rice - Preferably cold or day-old for better texture. Protein - Options include chicken, shrimp, tofu, pork, or beef. Vegetables - Common choices are peas, carrots, bell peppers, and onions. Aromatics - Garlic and ginger add flavor. Eggs - Lightly beaten and scrambled into the rice. Soy Sauce - For seasoning and color. Sesame Oil - Adds a nutty flavor. Green Onions - Chopped, for garnish and freshness. Salt and Pepper - To taste. Optional - Other ingredients like oyster sauce, hoisin sauce, or chili flakes for extra flavor."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.034"
+            app:layout_constraintStart_toStartOf="@+id/ingredientstxt"
+            app:layout_constraintTop_toBottomOf="@+id/ingredientstxt" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/addItemButtom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/addtocartshape"
+            android:fontFamily="@font/cabalbold"
+            android:text="Add to Cart"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detailsIngredients" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
