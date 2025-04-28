@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.firstapp.hungersden.databinding.FragmentCongratsBottomSheetBinding
+import com.firstapp.FoodBridge.databinding.FragmentCongratsBottomSheetBinding
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 
