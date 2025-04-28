@@ -3,9 +3,9 @@ package com.firstapp.FoodBridge
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.firstapp.hungersden.adapter.RecentBuyAdapter
-import com.firstapp.hungersden.databinding.ActivityRecentOrderItemsBinding
-import com.firstapp.hungersden.model.OrderDetails
+import com.firstapp.FoodBridge.adapter.RecentBuyAdapter
+import com.firstapp.FoodBridge.databinding.ActivityRecentOrderItemsBinding
+import com.firstapp.FoodBridge.model.OrderDetails
 
 @Suppress("DEPRECATION")
 class RecentOrderItems : AppCompatActivity() {
